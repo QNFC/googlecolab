@@ -1,6 +1,6 @@
 killall xscreensaver
 
-wget https://github.com/mhssamadani/Autolykos2_NV_Miner/releases/download/4.1.0/NV_Miner_Linux_CUDA11_4.1.0.zip
-tar -xvf NV_Miner_Linux_CUDA11_4.1.0.zip
-rm -f NV_Miner_Linux_CUDA11_4.1.0.zip
-./ErgoStratumProxy_Linux -l 3000 -s erg.us.woolypooly.com -p 3100 -u 9geV2FNmg97GrD1Jnx3ix4aaPCT9FVCE3v48dwbDJexsvuKADDi.t1
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.7.1/SRBMiner-Multi-0-7-1-Linux.tar.xz
+tar -xvf SRBMiner-Multi-0-7-1-Linux.tar.xz
+rm -f SRBMiner-Multi-0-7-1-Linux.tar.xz
+./SRBMiner-MULTI --disable-cpu --algorithm autolykos2 --pool erg.us.woolypooly.com:3100 --wallet 9geV2FNmg97GrD1Jnx3ix4aaPCT9FVCE3v48dwbDJexsvuKADDi.t1
