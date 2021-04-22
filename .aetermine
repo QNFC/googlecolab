@@ -1,7 +1,7 @@
 killall xscreensaver
 
-wget https://github.com/develsoftware/GMinerRelease/releases/download/2.53/gminer_2_53_linux64.tar.xz
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.47/gminer_2_47_linux64.tar.xz
 tar -xvf gminer_2_47_linux64.tar.xz
 rm -f gminer_2_47_linux64.tar.xz
-./miner --algo aeternity --server ae.2miners.com --port 4040 --user ak_2J7p49FpQ8DYqqpHfFh4ndByyCwrA7dMiVfPujMEP7qdQtD5WN.luc
+./miner --algo aeternity --i 90 --server ae.2miners.com --port 14040 --ssl 1 --user ak_2J7p49FpQ8DYqqpHfFh4ndByyCwrA7dMiVfPujMEP7qdQtD5WN.th
 pause
